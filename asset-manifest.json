@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/talktoori/static/css/main.ae81eda4.css",
+    "main.js": "/talktoori/static/js/main.7aa58eb1.js",
+    "index.html": "/talktoori/index.html",
+    "main.ae81eda4.css.map": "/talktoori/static/css/main.ae81eda4.css.map",
+    "main.7aa58eb1.js.map": "/talktoori/static/js/main.7aa58eb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae81eda4.css",
+    "static/js/main.7aa58eb1.js"
+  ]
+}
