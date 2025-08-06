@@ -67,10 +67,10 @@ function Home() {
               שלום, אני <span className="highlight">אורי גרוס</span>
             </h1>
             <h2 className="hero-subtitle">
-              מורה לאנגלית מנוסה עם תשוקה ללימוד
+              לומד אנגלית עם תשוקה ונחישות
             </h2>
             <p className="hero-description">
-              בחדר הלימוד הדיגיטלי שלי, תלמדו אנגלית בצורה אישית וחכמה. 
+              זהו המקום האישי שלי ללמוד אנגלית בצורה חכמה ומתקדמת. 
               כל מילה נשמרת, כל התקדמות נמדדת, וכל הצלחה נחגגת!
             </p>
 
@@ -98,13 +98,13 @@ function Home() {
           </div>
 
           <div className="hero-visual">
-            <div className="teacher-avatar">
+            <div className="student-avatar">
               <div className="avatar-circle">
                 <span className="avatar-text">אורי</span>
               </div>
               <div className="avatar-status">
                 <span className="status-indicator"></span>
-                מורה פעיל
+                לומד פעיל
               </div>
             </div>
 
@@ -155,7 +155,7 @@ function Home() {
       {/* Features Section */}
       <section className="features-section">
         <div className="container">
-          <h3>איך אורי עוזר לך ללמוד?</h3>
+                      <h3>איך אורי לומד אנגלית?</h3>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">💭</div>
@@ -246,9 +246,9 @@ function Home() {
           <div className="about-content">
             <h3>על אורי גרוס</h3>
             <p>
-              אורי הוא מורה לאנגלית מנוסה עם תשוקה לחינוך דיגיטלי חדשני. 
+              אורי הוא סטודנט נלהב שחיפש דרך יעילה ללמוד אנגלית. 
               הוא מאמין שלמידת שפה צריכה להיות אישית, מהנה ויעילה. 
-              האפליקציה "Talk to Ori" מגשימה את החזון שלו - ללמד אנגלית בצורה שמתאימה בדיוק לקצב ולסגנון הלמידה של כל תלמיד.
+              האפליקציה "Talk to Ori" נבנתה במיוחד עבורו - ללמוד אנגלית בצורה שמתאימה בדיוק לקצב ולסגנון הלמידה שלו.
             </p>
             <div className="about-highlights">
               <div className="highlight-item">
