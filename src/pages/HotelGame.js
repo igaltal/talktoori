@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useWords } from '../hooks/useWords';
 import { speakWord } from '../utils/speechSynthesis';
 
@@ -44,12 +44,12 @@ function HotelGame() {
   };
 
   // Start new round
-  const startNewRound = () => {
+  const startNewRound = useCallback(() => {
     const word = selectRandomWord();
     setCurrentWord(word);
     setShowTranslation(false);
     setRound(prev => prev + 1);
-  };
+  }, [hotelWords, gameHistory]);
 
   // Reveal translation
   const revealTranslation = () => {

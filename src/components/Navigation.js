@@ -9,6 +9,7 @@ function Navigation() {
   const location = useLocation();
 
   const navItems = [
+    { path: '/', label: 'בית' },
     { path: '/words', label: 'מילים' },
     { path: '/games', label: 'משחקים' },
     { path: '/hotel-game', label: 'משחק מלון' },
@@ -17,9 +18,6 @@ function Navigation() {
   ];
 
   const isActivePath = (path) => {
-    if (path === '/words') {
-      return location.pathname === '/' || location.pathname === '/words';
-    }
     return location.pathname === path;
   };
 

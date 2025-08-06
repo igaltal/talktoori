@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useWords } from '../hooks/useWords';
 import { speakSentence } from '../utils/speechSynthesis';
 
@@ -43,7 +43,7 @@ function StoryGenerator() {
   ];
 
   // Generate a story using random words
-  const generateStory = () => {
+  const generateStory = useCallback(() => {
     if (words.length < 5) {
       alert('נדרשות לפחות 5 מילים כדי ליצור סיפור');
       return;
@@ -92,7 +92,7 @@ function StoryGenerator() {
     setTimeout(() => {
       setIsGenerating(false);
     }, 500);
-  };
+  }, [words, getRandomWords, storyTemplates]);
 
   // Highlight words in story
   const renderStoryWithHighlights = (storyText, wordsToHighlight) => {
