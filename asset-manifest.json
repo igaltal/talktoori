@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/talktoori/static/css/main.8078bea5.css",
-    "main.js": "/talktoori/static/js/main.ef48a10b.js",
+    "main.css": "/talktoori/static/css/main.28ff08ac.css",
+    "main.js": "/talktoori/static/js/main.9fe4620e.js",
     "index.html": "/talktoori/index.html",
-    "main.8078bea5.css.map": "/talktoori/static/css/main.8078bea5.css.map",
-    "main.ef48a10b.js.map": "/talktoori/static/js/main.ef48a10b.js.map"
+    "main.28ff08ac.css.map": "/talktoori/static/css/main.28ff08ac.css.map",
+    "main.9fe4620e.js.map": "/talktoori/static/js/main.9fe4620e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8078bea5.css",
-    "static/js/main.ef48a10b.js"
+    "static/css/main.28ff08ac.css",
+    "static/js/main.9fe4620e.js"
   ]
 }
